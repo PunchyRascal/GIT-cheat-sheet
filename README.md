@@ -40,6 +40,7 @@ and save-quitting your editor, you'll get another editor. When you save and quit
 ## Undo “git commit --amend” done instead of “git commit”
 1. `git reset --soft HEAD@{1}`
 2. `commit properly`
+ 
 ## Accept all remote changes in all conflicts
 `grep -lr '<<<<<<<' . | xargs git checkout --theirs`
 `git add .`

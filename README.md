@@ -1,5 +1,8 @@
 # GIT-cheat-sheet
 
+## Convert last commit to unstaged changes (uncommit)
+`git reset HEAD^`
+
 ## Rename branch
 `git branch -m [old_name] new_name`
 ## Rebase to specific commit

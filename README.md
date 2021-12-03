@@ -1,5 +1,8 @@
 # GIT-cheat-sheet
 
+## Ignore versioned files
+`git rm -r --cached path/ignore/dir`
+
 ## Convert last commit to unstaged changes (uncommit)
 `git reset HEAD^`
 

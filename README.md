@@ -1,5 +1,8 @@
 # GIT-cheat-sheet
 
+## Undo git commit & redo
+`git reset HEAD~            `
+
 ## Ignore versioned files
 `git rm -r --cached path/ignore/dir`
 

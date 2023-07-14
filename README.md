@@ -61,5 +61,5 @@ and save-quitting your editor, you'll get another editor. When you save and quit
 ## Removing an entire commit
 `git rebase -p --onto SHA^ SHA`
 ## Recursively converting files from dos line endings to unix line endings
- `find . -name "*" -type f -exec dos2unix {} \;.`
+ `find . -name "*" -type f -exec dos2unix {} \;`
 
